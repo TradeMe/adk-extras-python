@@ -5,7 +5,7 @@ This module provides a drop-in replacement for the LiteLlm class that properly
 implements async streaming using acompletion instead of the synchronous completion method.
 """
 
-from typing import AsyncGenerator, Dict, Any
+from typing import AsyncGenerator
 
 from google.adk.models.lite_llm import (
     LiteLlm,
