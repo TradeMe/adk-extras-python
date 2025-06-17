@@ -14,11 +14,11 @@ A drop in replacement for LiteLLM, but with streaming fixed:
 
 ```python
 from google.adk.agents import Agent
-from adk_extras.models.lite_llm import LiteLlmWithStreaming
+from adk_extras.models.lite_llm import LiteLlmWithStreaming as LiteLlm
 
 agent = Agent(
     name="weather_agent_gpt",
-    model=LiteLlmWithStreaming(model="openai/gpt-4o"),
+    model=LiteLlm(model="openai/gpt-4o"),
     description="Provides weather information using OpenAI's GPT.",
     instruction="You are a helpful weather assistant powered by GPT-4o. "
                 "Use the 'get_weather' tool for city weather requests. "
