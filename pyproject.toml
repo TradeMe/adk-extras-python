@@ -1,0 +1,10 @@
+[project]
+name = "adk-extras-python"
+version = "0.1.0"
+description = "Open-source extensions to the python Google Agent Development Kit"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk>=1.3.0",
+    "litellm>=1.72.6",
+]
